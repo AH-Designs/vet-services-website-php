@@ -1,0 +1,63 @@
+
+{% extends "main.twig" %}
+
+{% block content %}
+<div id="myCarousel" class="carousel slide">
+
+    <ol class="carousel-indicators">
+
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        
+    </ol>
+
+<div class="carousel-inner">
+
+    <div class="item active">
+        <img class="img-responsive" src="images/cat-big-image.jpg" alt="Cat">
+    </div>
+
+     <div class="item">
+        <img class="img-responsive" src="images/dog-big-image.jpg" alt="Dog">
+    </div>
+
+     <div class="item">
+        <img class="img-responsive" src="images/rabbits-big-image.jpg" alt="Rabbit">
+    </div>
+
+</div>
+
+ <div class="side-div" id="index-side-div">
+        <div class="title-div">
+                <h1 class="title-one">HELLO</h1></br>
+                <h1 class="title-two">FRIENDS</h1>
+
+                <p class="index-paragraph">Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada, integer vivamus elit eu mauris eus.Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac.</p>
+
+                <div class="button-div">
+                <a href="{{siteUrl('/contact')}}"><button class="appointment-button">BOOK AN APPOINTMENT</button></a>
+                </div>
+        </div>
+    </div>  
+
+
+</div>
+
+
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

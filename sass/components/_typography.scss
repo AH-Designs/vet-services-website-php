@@ -1,0 +1,155 @@
+/*Main index.html title*/
+
+.title-one, .title-two{
+	
+	margin-bottom:0px;
+	font-size:3.125em;
+	margin:0;
+	@media only screen and (max-width: 1035px) {
+	font-size:2.063em;
+	}
+	@media only screen and (max-width: 903px) {
+	margin-left:20px;
+	}
+
+}
+
+	@media only screen and (max-width: 832px) {
+	
+.index-paragraph{
+		font-size: 0.813em;
+	}
+}
+
+.title-one{
+	font-weight:bold;
+}
+
+/*Service title*/
+
+#services-title-one, #services-title-two, #about-title-one, #about-title-two{
+
+	@media only screen and (max-width: 1156px) {
+	font-size:1.938em;
+	}
+
+	@media only screen and (max-width: 906px) {
+	font-size:1.563em;
+	}
+
+	@media only screen and (max-width: 775px){
+	font-size:1.063em;
+
+	}
+} 
+
+
+
+/*Index-paragraph*/
+
+
+/*Call us title in the heading */
+
+.call-us{
+	margin-bottom:0;
+	position:relative;
+	right:50px;
+	@media only screen and (max-width: 903px) {
+	right:0;
+
+	}
+	// @media only screen and (max-width: 768px) {
+	// position:relative;
+	// display:block;
+	// width:100%;
+	// margin-left:auto;
+	// margin-right:auto;
+
+
+	
+}
+
+/*About paragraphs*/
+
+.about-paragraph-1, .about-paragraph-2{
+	width:78%;
+
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:120px;
+	color:$basic-white;
+	left:60px;
+	padding-right:30px;
+	margin-bottom:30px;
+
+	@media only screen and (max-width: 890px) {
+	font-size:0.813em;
+	top:80px;
+	}
+
+	@media only screen and (max-width: 699px) {	
+	top:50px;
+	}
+
+		@media only screen and (max-width: 630px) {
+	font-size:0.625em;
+	left:45px;
+	}
+
+}
+
+/*Services lists*/
+
+.services-list-1, .services-list-2{
+	width:28%;
+	margin-left:30px;
+	float:left;
+	position:relative;
+	top:60px;
+	list-style-image: url("/images/arrow-bulletpoint.png");
+@media only screen and (max-width: 766px) {
+	width:50%;
+	
+	
+}
+	.list-item{
+		margin-top:35px;
+	}
+	h5{
+		font-weight: bold;
+	}
+}
+
+@media only screen and (max-width: 766px) {
+	.services-list-2{
+			margin-bottom: 70px;
+		}
+}
+/*Bold span for styling*/
+span.bold{
+	font-weight:bold;
+
+}
+
+/*Our address styling and list*/
+
+.our-address-header{
+	padding-bottom:15px;
+}
+
+.our-address-list{
+	list-style-type:none;
+	padding-left:0;
+	li{
+		padding-bottom:12px;
+	}
+}
+
+
+#box-1, #box-2, #box-3, #box-4{
+	padding:30px;
+	
+}
+
+

@@ -1,0 +1,125 @@
+{% extends "main.twig" %}
+
+{% block content %}
+
+<div class="main-content contact-background">
+
+    <div class="side-div" id="contact-side-div">
+        <div class="title-div-about" id="title-div-contact">
+                <h1 class="title-one" id="services-title-one">KEEP</h1></br>
+                <h1 class="title-two" id="services-title-two">IN TOUCH</h1>
+         
+        </div>
+    </div>  
+
+
+    <!--Using bootstap grid system for layout-->
+
+
+
+<div class="container" id="contact-container">
+
+<div class="row">
+
+  <div class="col-md-6" id="box-1">
+
+  <h3 class="our-address-header"><span class="bold">OUR</span> ADDRESS</h3>
+
+  <p>500 Terry Francois St. San Francisco, CA 94158</p>
+
+  <ul class="our-address-list">
+        <li><span class="bold">Email:</span> info@mysite.com</li>
+
+        <li><span class="bold">Tel:</span> 07983 576088</li>
+  </ul>
+
+  </div>
+
+  <div class="col-md-6" id="box-2">
+
+      <h3 class="our-address-header"><span class="bold">OPENING</span>HOURS</h3>
+
+        <ul class="our-address-list">
+        <li><span class="bold">7:00 AM - 10:00 PM</span> <br/>Monday - Saturday</li>
+
+        <li><span class="bold">10:00 AM - 6:00 PM</span> <br/>Sunday</li>
+  </ul>
+  
+
+  </div>
+
+
+</div>
+
+<div class="row">
+
+  <div class="col-md-12" id="box-3">
+
+  <iframe class="img-responsive map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.83910838151!2d-122.38931664959938!3d37.77037057966088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7fc4fe7ace37%3A0xfa1746dd4faeb818!2s500+Terry+A+Francois+Blvd%2C+San+Francisco%2C+CA+94158%2C+USA!5e0!3m2!1sen!2suk!4v1463665842294" width="650" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+  </div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-md-12" id="box-4">
+    
+    <h3 class="our-address-header"><span class="bold">CONTACT</span>US</h3>
+
+
+<form action="" method="post">
+
+    <ul>
+        <div class="row">
+
+    <div class="col-md-6">
+    
+    
+        <li class="name-field">
+            <label for="name"></label>
+            <input name="name" type="text" id="name" placeholder="Name" />
+        </li>
+
+        <li>
+            <label for="mail"></label>
+            <input name="email" type="email" id="mail" placeholder="Email" />
+        </li>
+
+        </div>
+
+        <div class="col-md-6">
+            <li>
+                <label for="msg"></label>
+                <textarea name="msg" id="msg" placeholder="Message"></textarea>
+            </li>
+        </div>
+
+        </div>
+
+        <li>
+            <input id="send" type="submit" value="Send">
+        </li>
+    </ul> 
+    
+</form>
+
+
+  
+
+
+  </div>
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+{% endblock content %}

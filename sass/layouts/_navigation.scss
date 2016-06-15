@@ -1,0 +1,150 @@
+
+/*nav bar styling*/
+
+#main-nav{
+	height:110px;
+	background-color:$color-white;
+	margin-bottom:0;
+}
+
+.nav{
+	position:relative;
+	top:28px;
+	margin-right:0px;
+	
+
+	
+}
+
+.nav li{
+	margin-left:8px;
+	margin-right:8px;
+	@media only screen and (max-width: 987px) {
+		font-size: 0.750em;
+		margin-right:3px;
+		margin-left:3px;
+	}
+	@media only screen and (max-width: 816px) {
+		font-size: 0.563em;
+		margin-right:2px;
+		margin-left:2px;
+	}
+
+}
+
+/*Collapsed Nav bar*/
+.navbar-toggle{
+	background-color:$theme-darkGrey;
+}
+
+#icon-bar{
+	background-color:$color-white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// /*TOGGLE MENU BOX STYLING*/
+// .navbar-toggle.collapsed{
+
+
+// @media screen and (max-width: 767px){
+// 	background-color:$theme-darkGrey;
+
+// }
+// @media screen and (max-width: 400px){
+	
+// 	position:relative;
+// 	right:20px;
+// 	top:20px;
+// 	background-color:$theme-darkGrey;
+// 	}
+
+// }
+
+
+// /*nav bar collapse menu box*/
+
+// .collapse{
+// 	width:97%;
+	
+// @media screen and (max-width: 765px) {
+	
+// 	background-color:$theme-darkGrey;
+
+// }	
+	
+// }
+
+// .navbar-collapse{ 
+	
+// 	@media screen and (max-width: 765px) {
+// padding-right:100px;
+// margin-right:20px;
+// z-index: 5;
+
+// }
+// 	}
+
+// /*NAVBAR TOGGLE BOX MENU LINKS STYLING*/
+
+
+// .navbar-default .navbar-nav>li>a{
+// 	color:$color-white;
+// 	text-align:center;
+
+	
+// // }
+// .navbar-nav>li{
+
+	
+// @media screen and (max-width: 765px) {
+// 	font-size:15px;
+// 	border:3px 3px 3px 3px;
+// 	border-color:$theme-grey;
+// 	border-style:solid;
+// }
+
+
+// }
+
+.navbar-collapse{
+	@media screen and (max-width: 765px) {
+	position:relative;
+	height:270px;
+	width:80%;
+	left:13%;
+	top:22px;
+	
+	}
+
+}
+/*Styling the nav bar when its on mobile view!!!*/
+#nav-styles{
+	@media screen and (max-width: 767px) {
+	z-index:3;
+	background-color:$theme-darkGrey;
+	a{
+		color:$color-white;
+		font-size:0.938em;
+		width:100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding:15px;
+		border-style:solid;
+		border-color: $theme-grey;
+		border: 3px 3px 0px 3px;
+		border-bottom:1.5px;
+		}
+	}
+}

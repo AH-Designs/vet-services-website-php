@@ -1,0 +1,192 @@
+
+/*Full page wrapper*/
+
+
+
+
+
+/*containers*/
+
+/*contact-div*/
+.contact-div{
+	background-color:$theme-grey;
+	height:30px;
+	
+
+	.contact-p{
+	
+		color:$theme-orange;
+		float:right;
+		margin-top:5px;
+		
+
+		
+	}
+}
+
+
+
+/*side div*/
+
+.side-div{
+	height:620px;
+	
+	background-color:$color-white;
+	opacity:0.5;
+	float:left; 
+	display:inline; 
+	width: 35%;
+	
+}
+
+.main-content{
+ 
+ 	
+ 	width:100%;
+ 	height:620px;
+ 	
+ 
+ }
+
+.title-div{
+	display:block;
+	width:190px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	top:100px;
+	@media only screen and (max-width: 920px) {
+	top:60px;
+	}
+	@media only screen and (max-width: 834px) {
+	top:30px;
+	}
+	/* in the middle of making it responsive in phone view*/
+	@media only screen and (max-width: 903px) {
+	width:75%;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:30px;
+	background-color:$theme-grey;
+	padding:20px;
+	}
+	p{
+
+		margin-top: 25px;
+		font-size: 0.813em;
+	@media only screen and (max-width: 903px) {
+		font-size: 0.938em;
+		width:80%;
+		margin-left:auto;
+		margin-right: auto;
+
+	}
+		}
+
+}
+
+#index-side-div{
+	height:100%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+@media only screen and (max-width: 973px) {
+	position:block;	
+	}
+/* in the middle of making it responsive in phone view*/
+@media only screen and (max-width: 903px) {
+	position:relative;
+	width:100%;
+	margin-bottom:40px;
+	}
+}
+.title-div-about{
+	display:block;
+	width:250px;
+	position:relative;
+	top:150px;
+	margin-left:25%;
+	width:288px;
+	@media only screen and (max-width: 563px){
+	margin-left:11%;
+	}
+
+}
+
+/*contact-title-div*/
+
+#title-div-contact{
+	@media only screen and (max-width: 903px){
+	position:relative;
+	top:50px;
+	width:170px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:$theme-grey;
+	h1{
+		font-size: 1.938em;
+	}
+	}
+}
+
+/*Second main div contianer with content*/
+
+
+#services-side-div{
+	background-color:$theme-grey;
+	height:100%;
+	
+}
+
+#contact-side-div{
+	background-color:$theme-grey;
+	@media only screen and (max-width: 903px){
+		float:none;
+		position:relative;
+		height:200px;
+		width:100%;
+		display: block;
+		
+
+		
+	}
+}
+/*contact container*/
+
+#contact-container{
+	max-width:60%;
+	float:right;
+	
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:40px;
+	@media only screen and (max-width: 903px){
+	display:block;
+	position:relative;
+	float:none;
+
+	max-width:100%;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+
+	
+	}
+	
+}
+
+#box-1{
+	border-right:solid $theme-darkGrey 1px;
+	
+	@media only screen and (max-width: 991px){
+	border-right:solid $color-white 0px;
+}
+
+}
+
+
+
